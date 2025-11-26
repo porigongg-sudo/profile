@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>私の自己紹介プロフィール</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
 
+  <nav class="navbar bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1"></span>
+      </div>
+    </nav>
+    <div class="container">
+        <header>
+            <h1>はじめまして！私の簡単なプロフィールです</h1>
+        </header>
+
+        <section id="basic-info">
+            <h2>👤 基本情報</h2>
+            <p><strong>名前:</strong> kakami</p>
+            <p><strong>出身地:</strong> 東京都</p>
+            <p><strong>趣味:</strong> お菓子づくり</p>
+        </section>
+        <section id="photo">
+            <div class="image-center">
+                <img src="Image_20251126_225308_187.jpg" alt="美味しそうなカヌレが積まれた写真" class="profile-image">
+            </div>
+        </section>
+
+        <hr> <section id="self-pr">
+            <h2>✨ 自己PR</h2>
+            <p>プログラミングを学び始めた**初心者**です。特に**HTMLとCSS**に興味があり、簡単なウェブサイト作成からスキルアップを目指しています！</p>
+            <p>新しいことを学ぶのが大好きで、日々色々な技術にチャレンジしています。</p>
+        </section>
+
+        <hr> <section id="skills">
+            <h2>🛠️ スキル（勉強中）</h2>
+            <ul>
+                <li>HTML (簡単な構造作成)</li>
+                <li>CSS (基本的な装飾)</li>
+                <li>JavaScript (これから勉強予定！)</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>📧 連絡先</h2>
+            <p><strong>メール:</strong> dummy.mail@example.com</p>
+            <p>SNSは準備中です！</p>
+        </section>
+
+        <footer>
+            <p><small>&copy; 2025 私のプロフィール</small></p>
+        </footer>
+    </div>
+
+</body>
+</html>
